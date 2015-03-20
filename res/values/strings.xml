@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ViewFlipper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="flipper_hint">4行文字循环，内容自设</string>
+    <string name="animation_2_text_1">学习</string>
+    <string name="animation_2_text_2">是一项孤独而崇高的事业</string>
+    <string name="animation_2_text_3">贵在坚持  赢在坚持</string>
+    <string name="animation_2_text_4">————隋a丙!</string>
+</resources>

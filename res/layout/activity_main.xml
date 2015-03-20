@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="40dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/xm" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="40dp" 
+            android:layout_gravity="center">
+
+            <TextView
+                android:text="设置"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18.0sp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right" >
+
+            <TextView
+                android:text="设置"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18.0sp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+    </FrameLayout>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- 第一个页面 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/a1" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/fonstSize"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="字体大小" />
+
+                <Button
+                    android:id="@+id/searchEngine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="搜索引擎" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_ly"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/a4"
+                android:gravity="center"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>
